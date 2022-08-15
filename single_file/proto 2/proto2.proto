@@ -1,0 +1,27 @@
+syntax = "proto2";
+
+package com.addressBook;
+
+message Person {
+  required string name = 1;
+  required int32 id = 2;
+  optional string email = 3;
+}
+
+message AddressBook {
+  repeated Person people = 1;
+}
+
+message AddressBookById {
+  required int32 id = 1;
+}
+
+message AddressBookByName {
+  required string name = 1;
+}
+
+service AddressBookService {
+  rpc CreateAddressBook (AddressBook) returns (AddressBook) {}
+  rpc GetAddressBook (AddressBookById) returns (AddressBook) {}
+  rpc ListAddressBook (AddressBookByName) returns (stream AddressBook) {}
+}
