@@ -4,7 +4,7 @@
 
 // Data models to interface with legacy Autofill API.
 
-syntax = "proto2";
+syntax = "proto3";
 
 option optimize_for = LITE_RUNTIME;
 
