@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   version: '1'
-  title: 'OAS 3.0'
+  title: 'OAS 3.0 updated'
   license:
     name: MIT
 servers:
