@@ -1,4 +1,4 @@
-id = d2523a9e-43f1-4399-8154-a25812f72a4f
+id = 697088e1-bb7e-4738-8e30-1244a75fce25
 
 [relations]
 
@@ -9,8 +9,9 @@ rootDirectory = postman/collections
 
 [relations.apiDefinition]
 rootDirectory = multi-file/OAS 3.0
-files[] = {"path":"index/user_api.yaml","metaData":{}}
-files[] = {"path":"components/user_components copy.yaml","metaData":{}}
 files[] = {"path":"components/user_components.yaml","metaData":{}}
+files[] = {"path":"components/user_components copy.yaml","metaData":{}}
+files[] = {"path":"index/user_api.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
+type = openapi:3
