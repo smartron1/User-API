@@ -10,7 +10,6 @@ rootDirectory = postman/collections
 [relations.apiDefinition]
 rootDirectory = multi-file/OAS 3.0
 files[] = {"path":"components/user_components.yaml","metaData":{}}
-files[] = {"path":"components/user_components copy.yaml","metaData":{}}
 files[] = {"path":"index/user_api.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
